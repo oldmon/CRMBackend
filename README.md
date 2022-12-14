@@ -8,6 +8,7 @@ The project represents the backend of a customer relationship management (CRM) w
     Removing a customer
 
 ##installation
+
 Download the main.go and main_test.go from the associated workspace
 Download the external 3rd Party Modules
     github.com/google/uuid - Used to generate a unique id
@@ -16,11 +17,12 @@ go mod init
 go mod tidy
 
 ##launch
+
 go run main.go
 
 ##usage
-The application handles the following 5 operations for customers in the "database":
 
+The application handles the following 5 operations for customers in the "database":
     Getting a single customer through a /customers/{id} path
     Getting all customers through a the /customers path
     Creating a customer through a /customers path
